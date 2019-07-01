@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\obj\Debug\netcoreapp2.2\02bisiesto.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\obj\Debug\netcoreapp2.2\02bisiesto.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\obj\Debug\netcoreapp2.2\02bisiesto.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\obj\Debug\netcoreapp2.2\02bisiesto.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\bin\Debug\netcoreapp2.2\02bisiesto.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\bin\Debug\netcoreapp2.2\02bisiesto.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\bin\Debug\netcoreapp2.2\02bisiesto.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\bin\Debug\netcoreapp2.2\02bisiesto.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\bin\Debug\netcoreapp2.2\02bisiesto.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\obj\Debug\netcoreapp2.2\02bisiesto.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\02bisiesto\obj\Debug\netcoreapp2.2\02bisiesto.pdb
