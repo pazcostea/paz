@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\obj\Debug\netcoreapp2.2\04piramide.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\obj\Debug\netcoreapp2.2\04piramide.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\obj\Debug\netcoreapp2.2\04piramide.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\obj\Debug\netcoreapp2.2\04piramide.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\bin\Debug\netcoreapp2.2\04piramide.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\bin\Debug\netcoreapp2.2\04piramide.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\bin\Debug\netcoreapp2.2\04piramide.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\bin\Debug\netcoreapp2.2\04piramide.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\bin\Debug\netcoreapp2.2\04piramide.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\obj\Debug\netcoreapp2.2\04piramide.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\04piramide\obj\Debug\netcoreapp2.2\04piramide.pdb

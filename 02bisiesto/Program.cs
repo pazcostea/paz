@@ -18,9 +18,7 @@ namespace _02bisiesto
         }
         static bool esBisiesto(int bisi)
         {
-
            return ((bisi % 400 == 0)||  ((bisi % 4 == 0) && (bisi % 100 ==0)));          
-
         }
 
             /*Int32 bisiesto = Int32.Parse(args[0]);

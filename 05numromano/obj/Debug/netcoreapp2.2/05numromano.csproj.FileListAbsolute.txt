@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\bin\Debug\netcoreapp2.2\05numromano.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\bin\Debug\netcoreapp2.2\05numromano.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\bin\Debug\netcoreapp2.2\05numromano.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\bin\Debug\netcoreapp2.2\05numromano.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\bin\Debug\netcoreapp2.2\05numromano.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\obj\Debug\netcoreapp2.2\05numromano.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\obj\Debug\netcoreapp2.2\05numromano.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\obj\Debug\netcoreapp2.2\05numromano.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\obj\Debug\netcoreapp2.2\05numromano.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\obj\Debug\netcoreapp2.2\05numromano.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\05numromano\obj\Debug\netcoreapp2.2\05numromano.pdb

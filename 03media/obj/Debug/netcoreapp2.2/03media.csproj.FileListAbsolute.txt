@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\obj\Debug\netcoreapp2.2\03media.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\obj\Debug\netcoreapp2.2\03media.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\obj\Debug\netcoreapp2.2\03media.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\obj\Debug\netcoreapp2.2\03media.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\bin\Debug\netcoreapp2.2\03media.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\bin\Debug\netcoreapp2.2\03media.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\bin\Debug\netcoreapp2.2\03media.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\bin\Debug\netcoreapp2.2\03media.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\bin\Debug\netcoreapp2.2\03media.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\obj\Debug\netcoreapp2.2\03media.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\03media\obj\Debug\netcoreapp2.2\03media.pdb
