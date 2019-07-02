@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\bin\Debug\netcoreapp2.2\06ordeninverso.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\bin\Debug\netcoreapp2.2\06ordeninverso.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\bin\Debug\netcoreapp2.2\06ordeninverso.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\bin\Debug\netcoreapp2.2\06ordeninverso.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\bin\Debug\netcoreapp2.2\06ordeninverso.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\obj\Debug\netcoreapp2.2\06ordeninverso.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\obj\Debug\netcoreapp2.2\06ordeninverso.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\obj\Debug\netcoreapp2.2\06ordeninverso.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\obj\Debug\netcoreapp2.2\06ordeninverso.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\obj\Debug\netcoreapp2.2\06ordeninverso.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\06ordeninverso\obj\Debug\netcoreapp2.2\06ordeninverso.pdb
