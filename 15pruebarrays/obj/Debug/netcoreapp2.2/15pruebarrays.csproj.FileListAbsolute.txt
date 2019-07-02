@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\obj\Debug\netcoreapp2.2\15pruebarrays.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\obj\Debug\netcoreapp2.2\15pruebarrays.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\obj\Debug\netcoreapp2.2\15pruebarrays.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\obj\Debug\netcoreapp2.2\15pruebarrays.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\bin\Debug\netcoreapp2.2\15pruebarrays.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\bin\Debug\netcoreapp2.2\15pruebarrays.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\bin\Debug\netcoreapp2.2\15pruebarrays.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\bin\Debug\netcoreapp2.2\15pruebarrays.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\bin\Debug\netcoreapp2.2\15pruebarrays.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\obj\Debug\netcoreapp2.2\15pruebarrays.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\15pruebarrays\obj\Debug\netcoreapp2.2\15pruebarrays.pdb
