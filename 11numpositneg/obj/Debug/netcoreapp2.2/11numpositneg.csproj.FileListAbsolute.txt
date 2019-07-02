@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\obj\Debug\netcoreapp2.2\11numpositneg.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\obj\Debug\netcoreapp2.2\11numpositneg.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\obj\Debug\netcoreapp2.2\11numpositneg.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\obj\Debug\netcoreapp2.2\11numpositneg.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\bin\Debug\netcoreapp2.2\11numpositneg.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\bin\Debug\netcoreapp2.2\11numpositneg.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\bin\Debug\netcoreapp2.2\11numpositneg.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\bin\Debug\netcoreapp2.2\11numpositneg.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\bin\Debug\netcoreapp2.2\11numpositneg.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\obj\Debug\netcoreapp2.2\11numpositneg.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\11numpositneg\obj\Debug\netcoreapp2.2\11numpositneg.pdb

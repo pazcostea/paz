@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\bin\Debug\netcoreapp2.2\12numinvertido.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\bin\Debug\netcoreapp2.2\12numinvertido.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\bin\Debug\netcoreapp2.2\12numinvertido.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\bin\Debug\netcoreapp2.2\12numinvertido.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\bin\Debug\netcoreapp2.2\12numinvertido.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\obj\Debug\netcoreapp2.2\12numinvertido.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\obj\Debug\netcoreapp2.2\12numinvertido.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\obj\Debug\netcoreapp2.2\12numinvertido.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\obj\Debug\netcoreapp2.2\12numinvertido.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\obj\Debug\netcoreapp2.2\12numinvertido.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\12numinvertido\obj\Debug\netcoreapp2.2\12numinvertido.pdb
