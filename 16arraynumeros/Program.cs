@@ -1,5 +1,5 @@
 ﻿using System;
-
+//crear un array de 500 posiciones que vaya de 100 a 600
 namespace _16arraynumeros
 {
     class Program

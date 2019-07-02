@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\obj\Debug\netcoreapp2.2\17enumopciones.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\obj\Debug\netcoreapp2.2\17enumopciones.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\obj\Debug\netcoreapp2.2\17enumopciones.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\obj\Debug\netcoreapp2.2\17enumopciones.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\bin\Debug\netcoreapp2.2\17enumopciones.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\bin\Debug\netcoreapp2.2\17enumopciones.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\bin\Debug\netcoreapp2.2\17enumopciones.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\bin\Debug\netcoreapp2.2\17enumopciones.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\bin\Debug\netcoreapp2.2\17enumopciones.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\obj\Debug\netcoreapp2.2\17enumopciones.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\17enumopciones\obj\Debug\netcoreapp2.2\17enumopciones.pdb

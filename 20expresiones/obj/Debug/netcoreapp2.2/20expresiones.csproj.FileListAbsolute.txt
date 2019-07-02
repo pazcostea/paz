@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\obj\Debug\netcoreapp2.2\20expresiones.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\obj\Debug\netcoreapp2.2\20expresiones.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\obj\Debug\netcoreapp2.2\20expresiones.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\obj\Debug\netcoreapp2.2\20expresiones.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\bin\Debug\netcoreapp2.2\20expresiones.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\bin\Debug\netcoreapp2.2\20expresiones.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\bin\Debug\netcoreapp2.2\20expresiones.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\bin\Debug\netcoreapp2.2\20expresiones.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\bin\Debug\netcoreapp2.2\20expresiones.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\obj\Debug\netcoreapp2.2\20expresiones.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20expresiones\obj\Debug\netcoreapp2.2\20expresiones.pdb

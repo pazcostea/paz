@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\bin\Debug\netcoreapp2.2\19operadores.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\bin\Debug\netcoreapp2.2\19operadores.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\bin\Debug\netcoreapp2.2\19operadores.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\bin\Debug\netcoreapp2.2\19operadores.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\bin\Debug\netcoreapp2.2\19operadores.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\obj\Debug\netcoreapp2.2\19operadores.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\obj\Debug\netcoreapp2.2\19operadores.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\obj\Debug\netcoreapp2.2\19operadores.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\obj\Debug\netcoreapp2.2\19operadores.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\obj\Debug\netcoreapp2.2\19operadores.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\19operadores\obj\Debug\netcoreapp2.2\19operadores.pdb

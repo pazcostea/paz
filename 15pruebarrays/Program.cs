@@ -1,5 +1,5 @@
 ﻿using System;
-
+//primer array que muestre los nombres de los alumnos de la clase
 namespace _15pruebarrays
 {
     class Program

@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\obj\Debug\netcoreapp2.2\18valoresnulos.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\obj\Debug\netcoreapp2.2\18valoresnulos.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\obj\Debug\netcoreapp2.2\18valoresnulos.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\obj\Debug\netcoreapp2.2\18valoresnulos.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\bin\Debug\netcoreapp2.2\18valoresnulos.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\bin\Debug\netcoreapp2.2\18valoresnulos.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\bin\Debug\netcoreapp2.2\18valoresnulos.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\bin\Debug\netcoreapp2.2\18valoresnulos.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\bin\Debug\netcoreapp2.2\18valoresnulos.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\obj\Debug\netcoreapp2.2\18valoresnulos.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\18valoresnulos\obj\Debug\netcoreapp2.2\18valoresnulos.pdb
