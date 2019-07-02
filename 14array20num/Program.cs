@@ -10,6 +10,10 @@ namespace _14array20num
     {
         static void Main(string[] args)
         {
+            for (int i = 0; i <= 20; i++)
+            {
+                
+            }
             Console.WriteLine("Hello World!");
         }
     }
