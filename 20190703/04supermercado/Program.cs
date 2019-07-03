@@ -7,6 +7,7 @@ Cada linea del ticket contiene, producto, precio por unidad, unidades y precio.
 Del producto conocemos nombre, peso y precio
 Implementa en el método principal de la aplicación 5 productos, 1 ticket con 5 lineas con diferentes 
 cantidades y mostrar el ticket por pantalla
+Que se pueda añadir la linea del ticket
  */
 namespace _04supermercado
 {
