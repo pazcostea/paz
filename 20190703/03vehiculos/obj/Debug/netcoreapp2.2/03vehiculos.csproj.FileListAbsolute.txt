@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\bin\Debug\netcoreapp2.2\03vehiculos.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\bin\Debug\netcoreapp2.2\03vehiculos.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\bin\Debug\netcoreapp2.2\03vehiculos.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\bin\Debug\netcoreapp2.2\03vehiculos.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\bin\Debug\netcoreapp2.2\03vehiculos.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\obj\Debug\netcoreapp2.2\03vehiculos.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\obj\Debug\netcoreapp2.2\03vehiculos.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\obj\Debug\netcoreapp2.2\03vehiculos.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\obj\Debug\netcoreapp2.2\03vehiculos.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\obj\Debug\netcoreapp2.2\03vehiculos.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\03vehiculos\obj\Debug\netcoreapp2.2\03vehiculos.pdb
