@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\bin\Debug\netcoreapp2.2\24dibujarCuadrado.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\bin\Debug\netcoreapp2.2\24dibujarCuadrado.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\bin\Debug\netcoreapp2.2\24dibujarCuadrado.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\bin\Debug\netcoreapp2.2\24dibujarCuadrado.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\bin\Debug\netcoreapp2.2\24dibujarCuadrado.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\obj\Debug\netcoreapp2.2\24dibujarCuadrado.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\obj\Debug\netcoreapp2.2\24dibujarCuadrado.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\obj\Debug\netcoreapp2.2\24dibujarCuadrado.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\obj\Debug\netcoreapp2.2\24dibujarCuadrado.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\obj\Debug\netcoreapp2.2\24dibujarCuadrado.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190702\24dibujarCuadrado\obj\Debug\netcoreapp2.2\24dibujarCuadrado.pdb
