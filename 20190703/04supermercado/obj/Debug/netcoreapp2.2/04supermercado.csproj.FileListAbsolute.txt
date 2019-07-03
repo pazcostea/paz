@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\bin\Debug\netcoreapp2.2\04supermercado.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\bin\Debug\netcoreapp2.2\04supermercado.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\bin\Debug\netcoreapp2.2\04supermercado.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\bin\Debug\netcoreapp2.2\04supermercado.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\bin\Debug\netcoreapp2.2\04supermercado.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\obj\Debug\netcoreapp2.2\04supermercado.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\obj\Debug\netcoreapp2.2\04supermercado.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\obj\Debug\netcoreapp2.2\04supermercado.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\obj\Debug\netcoreapp2.2\04supermercado.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\obj\Debug\netcoreapp2.2\04supermercado.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190703\04supermercado\obj\Debug\netcoreapp2.2\04supermercado.pdb
