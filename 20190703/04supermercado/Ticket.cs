@@ -7,15 +7,22 @@ namespace _04supermercado
         private string fecha;
         private string nomSuper;
         private int totalCompra;
-        private lineas lineasTicket;
+        private Linea [] linea;
 
         //Crear el constructor del ticket
-        public Ticket (string fecha, string nomSuper, int totalCompra, lineas lineasTicket)
+        //Constructor por defecto
+        public Ticket():this("00/00/00","Nombre"){
+        }
+        //Constructor pasando datos
+        public Ticket (string fecha, string nomSuper)
         {
              this.setFecha(fecha);
              this.setNomSuper(nomSuper);
-             this.totalCompra(totalCompra);
-             this.setLineasTicket(lineasTicket);
+             linea=new Linea[10];
+             for(int i=0;i<this.linea.Length;i++){
+                this.linea[i]=new Linea();
+            }           
+            
         }
          //Creamos los setter y los getter
         public string getFecha()
@@ -42,14 +49,27 @@ namespace _04supermercado
         {
 		    this.totalCompra = totalCompra;
 	    }
-        public lineas getLineasTicket() 
+        public Linea[] getLinea() 
         {
-		    return this.lineasTicket;
+		    return this.linea;
 	    }
-        public void setLineasTicket(lineas lineasTicket) 
+        public void setLinea(Linea[] linea) 
         {
-		    this.lineasTicket = lineasTicket;
+		    this.linea = linea;
 	    }
+        public int primeraLineaVacia(){
+            for(int i=0;i<this.linea.Length;i++){
+                if(this.linea[i].getUnidades()==0){
+                    return i;
+                }
+            }
+            return 100;
+        }
+        public void nuevaLinea(Linea linea){
+            int a=this.primeraLineaVacia();
+            this.linea[a]=linea;
+            totalCompra+=linea.getPrecioTotal();
+        }
 
     }
 }

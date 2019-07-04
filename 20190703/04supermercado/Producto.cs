@@ -9,6 +9,11 @@ namespace _04supermercado
 
         //Crear el constructor del producto
 
+        //Constructor por defecto
+        public Producto(): this("",0,0)
+        {
+        }
+        //Constructor al que le pasamos los datos
         public Producto (string nombre, int peso, int precioActual)
         {
             this.setNombre(nombre);
@@ -40,6 +45,6 @@ namespace _04supermercado
         public void setPrecioActual(int precioActual) 
         {
 		    this.precioActual = precioActual;
-	    }
+	    } 
     }
 }

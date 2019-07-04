@@ -9,12 +9,17 @@ namespace _04supermercado
         private int precioTotal;
 
          //Crear el constructor del producto
-        public Linea (Producto datosProducto, int precioUnidad, int unidades, int precioTotal)
+         //Constructor por defecto
+         public Linea():this(new Producto(),0)
+         {
+         }
+         //Constructor al que le pasamos datos
+        public Linea (Producto datosProducto, int unidades)
         {
-              this.setDatosProducto(datosProducto);
-              this.setPrecioUnidad(precioUnidad);
-              this.setUnidades(unidades);
-              this.setPrecioTotal(precioTotal);
+              this.datosProducto = datosProducto;              
+              this.unidades = unidades;
+              this.precioUnidad=datosProducto.getPrecioActual();
+              this.precioTotal=(unidades*precioUnidad);
         }
 
         //Creamos los setter y los getter
@@ -49,6 +54,6 @@ namespace _04supermercado
 	    public void setPrecioTotal(int precioTotal) 
         {
 		    this.precioTotal = precioTotal;
-	    }
+	    }  
     }
 }
