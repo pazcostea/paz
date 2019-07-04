@@ -40,7 +40,7 @@ namespace _01geometria
             return string.Format(" Soy un rectángulo de base {0}, altura {1}, area {2} y perimetro {3}", 
             this.rBase, this.rAltura, base.getPerimetro(), base.getArea());
         }
-        public override void dibujar(){
+        public sealed override void dibujar(){
             System.Console.WriteLine("***********Vamos a dibujar la figura***********");
             for (int i = 0; i < rAltura; i++)
             {

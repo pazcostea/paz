@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\bin\Debug\netcoreapp2.2\ordenador.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\bin\Debug\netcoreapp2.2\ordenador.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\bin\Debug\netcoreapp2.2\ordenador.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\bin\Debug\netcoreapp2.2\ordenador.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\bin\Debug\netcoreapp2.2\ordenador.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\obj\Debug\netcoreapp2.2\ordenador.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\obj\Debug\netcoreapp2.2\ordenador.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\obj\Debug\netcoreapp2.2\ordenador.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\obj\Debug\netcoreapp2.2\ordenador.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\obj\Debug\netcoreapp2.2\ordenador.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\ordenador\obj\Debug\netcoreapp2.2\ordenador.pdb
