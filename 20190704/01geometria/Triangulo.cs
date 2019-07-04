@@ -20,7 +20,7 @@ namespace _01geometria
             this.setTLado1(tLado1);
             this.setTLado2(tLado2);
             this.setTAltura(tAltura);            
-            System.Console.WriteLine("Triángulo creado");
+            System.Console.WriteLine("Triángulo creado");            
         }
 
         //Constructores getters y setters
@@ -66,6 +66,9 @@ namespace _01geometria
          public override string ToString()
         {            
             return string.Format(" Soy un triángulo de perimetro {0}, area {1}",base.getPerimetro(), base.getArea());
+        }
+        public override void dibujar(){
+            System.Console.WriteLine("**************Dibujamos un triángulo**************");
         }
     }
 }

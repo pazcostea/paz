@@ -1,6 +1,6 @@
 namespace _01geometria
 {
-    public class Forma
+    public abstract class Forma
     {
         //Definicion de variables de la clase Forma
         private double perimetro;
@@ -43,6 +43,9 @@ namespace _01geometria
         {
             return string.Format("Soy una forma de perímero {0} y area {1}", this.perimetro, this.area);
         }
+
+        //Creamos un método dibujar abstracto, que tengamos que implementar en el resto de clases
+        public abstract void dibujar();
 
     }
 }

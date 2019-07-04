@@ -7,9 +7,9 @@ namespace _01geometria
         static void Main(string[] args)
         {
             
-            Forma f = new Forma();
-            double b = 3;
-            double h = 2;
+            //Forma f = new Forma();
+            double b = 5;
+            double h = 3;
             double l1 = 3;
             double l2 = 3;
             
@@ -21,11 +21,10 @@ namespace _01geometria
             System.Console.WriteLine(rec);
             System.Console.WriteLine(cua);
             System.Console.WriteLine(tria);
-            
-           
 
+            cua.dibujar();
+            rec.dibujar();
             
-
         }
     }
 }

@@ -14,7 +14,7 @@ namespace _01geometria
         {
             this.setRBase(rBase);
             this.setRAltura(rAltura);
-            System.Console.WriteLine("Rectángulo creado");
+            System.Console.WriteLine("Rectángulo creado");            
         }
         public double getRBase()
         {
@@ -36,9 +36,21 @@ namespace _01geometria
          //Sobreescribir metodo de la clase object con override
         public override string ToString()
         {
-            //Con la primera parte base.ToString() hemos llamado al método ToString de la clase superior
-            return base.ToString() + string.Format(" Soy un rectángulo de base {0}, altura {1}, area {2} y perimetro {3}", 
+            //Con la primera parte base.ToString() hemos llamado al método ToString de la clase superior return base.ToString() + string.Format
+            return string.Format(" Soy un rectángulo de base {0}, altura {1}, area {2} y perimetro {3}", 
             this.rBase, this.rAltura, base.getPerimetro(), base.getArea());
+        }
+        public override void dibujar(){
+            System.Console.WriteLine("***********Vamos a dibujar la figura***********");
+            for (int i = 0; i < rAltura; i++)
+            {
+                for (int j = 0; j < rBase; j++)
+                {
+                    System.Console.Write(" ▀ ");
+                }
+                System.Console.WriteLine("");
+            }
+
         }
     }
 }
