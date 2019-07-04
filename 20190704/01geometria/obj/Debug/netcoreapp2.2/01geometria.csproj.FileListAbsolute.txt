@@ -1,0 +1,11 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\obj\Debug\netcoreapp2.2\01geometria.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\obj\Debug\netcoreapp2.2\01geometria.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\obj\Debug\netcoreapp2.2\01geometria.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\obj\Debug\netcoreapp2.2\01geometria.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\bin\Debug\netcoreapp2.2\01geometria.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\bin\Debug\netcoreapp2.2\01geometria.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\bin\Debug\netcoreapp2.2\01geometria.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\bin\Debug\netcoreapp2.2\01geometria.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\bin\Debug\netcoreapp2.2\01geometria.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\obj\Debug\netcoreapp2.2\01geometria.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190704\01geometria\obj\Debug\netcoreapp2.2\01geometria.pdb
