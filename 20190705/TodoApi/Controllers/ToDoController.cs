@@ -29,10 +29,36 @@ namespace TodoApi.Controllers
         [HttpPost]
         public Todoitem PostTodo (Todoitem item)
         {
-            item.Id=store.todos.Count;
-            this.store.todos.Add(item);
-            
+            item.Id=store.todos.Count; //Incrementamos el Id
+            this.store.todos.Add(item);            
             return item;
+        }
+        [HttpGet("{Id}")]
+        public Todoitem getTodoItems(long Id)
+        {
+            //return this.store.todos.Find(todo => todo.Id == Id);
+            //find es una funcion que recibo la información que hay almacenada en ToDO
+            //busca dentro del parámetro Id lo que coincida con el Id introducido por parámetro
+            return this.store.todos.Find(todo => {
+                System.Console.WriteLine("Todo: " + todo.Id);
+                return todo.Id == Id;
+            });
+        }
+        //Buscar una cadena de texto
+        [HttpGet("buscar/{Cadena}")]
+        public List<Todoitem> buscar(string Cadena)
+        {
+            return this.store.todos.FindAll(Todoitem => Todoitem.Name.Contains(Cadena));
+            
+        }
+        //Mostrar los que esten completos
+        [HttpGet("done")]
+        public List<Todoitem> getTodoItems(bool isComplete)
+        {          
+            return this.store.todos.FindAll(Todoitem => Todoitem.IsComplete == true);
+            /*{               
+                return Todoitem.IsComplete == true;
+            }); */
         }
     }
 }
