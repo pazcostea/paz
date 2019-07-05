@@ -19,6 +19,7 @@ namespace TodoApi.Controllers
         public ToDoController()
         {
             Console.WriteLine(store.todos.Count);
+            
         }
         [HttpGet]
         public List<Todoitem> getTodoItems()
@@ -28,7 +29,9 @@ namespace TodoApi.Controllers
         [HttpPost]
         public Todoitem PostTodo (Todoitem item)
         {
+            item.Id=store.todos.Count;
             this.store.todos.Add(item);
+            
             return item;
         }
     }
