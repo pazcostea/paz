@@ -55,10 +55,25 @@ namespace TodoApi.Controllers
         [HttpGet("done")]
         public List<Todoitem> getTodoItems(bool isComplete)
         {          
-            return this.store.todos.FindAll(Todoitem => Todoitem.IsComplete == true);
-            /*{               
-                return Todoitem.IsComplete == true;
-            }); */
+            return this.store.todos.FindAll(Todoitem => Todoitem.IsComplete == true);           
         }
+        [HttpPatch("done/{Id}")]
+         public Todoitem marcaCompletado(int Id)
+        {
+            //Creamos una variable para almacenar la posición del ID
+            int indice=this.store.todos.FindIndex(Todoitem => Todoitem.Id == Id);
+            //Vamos a la posición para cambiarle el estado
+            this.store.todos[indice].IsComplete=true;
+            return this.store.todos[indice];            
+        }
+        //Método para eliminar un ID
+        [HttpDelete("{Id}")]
+        public void eliminar(int Id)
+        {
+            this.store.todos.RemoveAt(Id);
+        }
+
+
     }
+
 }
