@@ -1,0 +1,14 @@
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\bin\Debug\netcoreapp2.2\videojuego.deps.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\bin\Debug\netcoreapp2.2\videojuego.runtimeconfig.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\bin\Debug\netcoreapp2.2\videojuego.runtimeconfig.dev.json
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\bin\Debug\netcoreapp2.2\videojuego.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\bin\Debug\netcoreapp2.2\videojuego.pdb
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\obj\Debug\netcoreapp2.2\videojuego.csprojAssemblyReference.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\obj\Debug\netcoreapp2.2\videojuego.csproj.CoreCompileInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\obj\Debug\netcoreapp2.2\videojuego.RazorAssemblyInfo.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\obj\Debug\netcoreapp2.2\videojuego.RazorAssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\obj\Debug\netcoreapp2.2\videojuego.AssemblyInfoInputs.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\obj\Debug\netcoreapp2.2\videojuego.AssemblyInfo.cs
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\obj\Debug\netcoreapp2.2\videojuego.RazorTargetAssemblyInfo.cache
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\obj\Debug\netcoreapp2.2\videojuego.dll
+C:\Users\formacion.GTT\Documents\Paz\paz\20190705\videojuego\obj\Debug\netcoreapp2.2\videojuego.pdb

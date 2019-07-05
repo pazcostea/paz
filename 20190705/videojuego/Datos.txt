@@ -1,0 +1,25 @@
+Vamos a crear un Api de videojuegos
+
+1º definir propiedades del videojuego
+Titulo (string)
+Año lanzamiento (int)
+Género (enum) hacer el enum en otro archivo es un tipo de dato
+Edad mínima (int)
+Compañia (string)
+
+No obligatorio: Que el videojuego tuviese personajes (array de tipo personajes array Personajes [] Personaje)
+Personajes es otra clase: 
+- Nombre
+- Sexo
+- Edad
+
+Rutas:
+GET /api/videojuegos (listado total)
+GET /api/videojuegos/[id] -> Detalle
+POST /api/videojuegos --> Crear videojuego
+GET /api/videojuego/buscar/ Se recibe lo que sea, lo recibimos como string, en el findall hay que ver qué dato están metiendo
+En la busqueda puede haber titulo, año lanzamiento o compañía
+Si hacemos Personaje, si alguno de los personajes coincide que lo saque también.
+PUT /api/videojuegos/[id], le paso todas las propiedades que tiene el objeto para modificar la información de un Id
+DELETE /api/videojuego/[id] --> Borra
+
