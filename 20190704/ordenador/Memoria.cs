@@ -1,12 +1,12 @@
 namespace ordenador
 {
 //Creamos una clase memoria, que va a tener como variables el tamaño y un array de celdas
-//que tendrá el mismo tamaño que lo indicado en la memoria
+    //que tendrá el mismo tamaño que lo indicado en la memoria
     public class Memoria
     {
         //Definición de las variables que tiene la clase Memoria
         private int tamanyo;
-        private int [] celdas;
+        private int[] celdas;
 
         //Constructor por defecto
         public Memoria()
@@ -16,10 +16,10 @@ namespace ordenador
         public Memoria(int tamanyo)
         {
             this.setTamanyo(tamanyo);
-            int [] celdas = new int [tamanyo];
-            
+            int[] celdas = new int[tamanyo];           
+
         }
-        
+
         //Declaramos los setter y los getter
         public int getTamanyo()
         {
@@ -29,6 +29,11 @@ namespace ordenador
         public void setTamanyo(int tamanyo)
         {
             this.tamanyo = tamanyo;
-        }        
-}
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Las caracteristicas de la memoria es: tamaño {0}", this.tamanyo);
+        }
+    }
 }
