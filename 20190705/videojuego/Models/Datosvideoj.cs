@@ -2,6 +2,7 @@ namespace videojuego.Models
 {
     public class Datosvideoj
     {
+        public long Id {get; set;}
         public string Titulo {get; set;}
         public int anyolanzamiento {get; set;}
         public Genero generos {get; set;}

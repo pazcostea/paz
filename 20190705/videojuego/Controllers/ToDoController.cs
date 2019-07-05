@@ -19,7 +19,20 @@ namespace videojuego.Controllers
         {
             Console.WriteLine(store.todos.Count);            
         }
-        
+
+        [HttpGet]
+        public List<Datosvideoj> getTodoVideo()
+        {
+            return this.store.todos;
+        }
+        [HttpPost]
+        public Datosvideoj PostTodo (Datosvideoj item)
+        {
+            item.Id=store.todos.Count; //Incrementamos el Id
+            this.store.todos.Add(item);            
+            return item;
+        }
+
 
     }
 }
