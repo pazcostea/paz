@@ -74,6 +74,17 @@ namespace PruebaListas
                 Console.WriteLine(pez.Value.nombre);
                 Console.WriteLine(pez.Value.color);
             }
+            //Método para encontrar un valor
+            //Creamos un valor de tipo Pez que tiene nombre y color
+            Pez encontrado;
+
+            //Creamos un booleano que nos dice si el nombre del pez nemo está dentro del diccionario de peces que he creado
+            bool seEncontro = dicPeces.TryGetValue("nemo", out encontrado);
+            if (seEncontro)
+            {
+                Console.WriteLine("Se encontró");
+                Console.WriteLine("tipo: " + encontrado.nombre + " color: "  + encontrado.color);
+            }
         }
     }
 }
