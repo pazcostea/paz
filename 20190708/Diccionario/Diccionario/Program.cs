@@ -65,15 +65,9 @@ namespace Diccionario
                     case 2:
                         {
                             Console.WriteLine("Indique la palabra que quiere buscar: ");
-                            string buscarPalabra = Console.ReadLine();
-                            
+                            string buscarPalabra = Console.ReadLine();                            
                             bool existe = dicPalabras.TryGetValue(buscarPalabra, out desc);
-                            Console.WriteLine(desc.descripcion);
-                            //foreach (var palabs in dicPalabras)
-                            //{                               
-                            //    Console.WriteLine(palabs.Value.palabra);
-                            //    Console.WriteLine(palabs.Value.descripcion);
-                            //}
+                            Console.WriteLine(desc.descripcion);                            
                             break;
                         }
                 }                
