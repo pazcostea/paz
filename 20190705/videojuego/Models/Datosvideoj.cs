@@ -5,7 +5,7 @@ namespace videojuego.Models
         public long Id {get; set;}
         public string Titulo {get; set;}
         public int anyolanzamiento {get; set;}
-        public Genero generos {get; set;}
+        public Genero genero {get; set;}
         public int edadMinima {get; set;}
         public string companyia {get; set;}
     }

@@ -36,7 +36,7 @@ namespace Diccionario
             string nuevaDescripcion = "";
             Palabras desc;
             //List<Palabras> words = new List<Palabras>();
-            Dictionary<string, Palabras> dicPalabras = new Dictionary<string, Palabras>();
+            SortedDictionary<string, Palabras> dicPalabras = new SortedDictionary<string, Palabras>();
             do
             {
                 Console.WriteLine("Indique la acción que quiere realizar: ");
@@ -64,10 +64,22 @@ namespace Diccionario
                         }
                     case 2:
                         {
+                            //foreach (var palabs in dicPalabras)
+                            //{                                
+                            //    Console.WriteLine(palabs.Value.palabra);
+                            //    Console.WriteLine(palabs.Value.descripcion);
+                            //}
                             Console.WriteLine("Indique la palabra que quiere buscar: ");
-                            string buscarPalabra = Console.ReadLine();                            
-                            bool existe = dicPalabras.TryGetValue(buscarPalabra, out desc);
-                            Console.WriteLine(desc.descripcion);                            
+                            string buscarPalabra = Console.ReadLine();
+                            
+                                bool existe = dicPalabras.TryGetValue(buscarPalabra, out desc);
+                                if (existe)
+                                {
+                                Console.WriteLine(desc.descripcion);
+
+                                    }
+                                else { Console.WriteLine("La palabra no existe"); }                              
+                                                                                  
                             break;
                         }
                 }                
