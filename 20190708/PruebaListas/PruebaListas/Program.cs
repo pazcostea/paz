@@ -67,6 +67,7 @@ namespace PruebaListas
             {
                 System.Console.WriteLine("Clave duplicada");
             }
+            //Mostramos lo que contiene el diccionario
             foreach (var pez in dicPeces)
             {
                 Console.WriteLine(pez.Key);
