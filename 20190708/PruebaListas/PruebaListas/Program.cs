@@ -67,8 +67,12 @@ namespace PruebaListas
             {
                 System.Console.WriteLine("Clave duplicada");
             }
-
-            
+            foreach (var pez in dicPeces)
+            {
+                Console.WriteLine(pez.Key);
+                Console.WriteLine(pez.Value.nombre);
+                Console.WriteLine(pez.Value.color);
+            }
         }
     }
 }
