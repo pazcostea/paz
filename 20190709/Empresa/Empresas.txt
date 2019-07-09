@@ -1,0 +1,2 @@
+Nombre 1 ; 1996
+Nombre 2 ; 1974
