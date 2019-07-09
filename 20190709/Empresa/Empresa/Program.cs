@@ -10,14 +10,14 @@ using System.Runtime.Serialization.Formatters.Binary;
 La clase empresa tendrá como mínimo dos atributos: nombre de tipo String y anyodefundacion de tipo string.
 La clase empleado tendrá como mínimo cuatro atributos: nombre de tipo String, apellidos de tipo String, fechanacimiento de tipo 
 String y fechaContrato de tipo String El programa mostrará un menu que tendrá las siguientes opciones:
-Crear nueva empresa.
-Añadir empleado a empresa existente.
-Listado de empresas.
-Informacion de una empresa en particular.
-Crear empleado.
-Listado de empleados.
-Información de un empleado en particular.
-Salir.Se deberá implementar todo la funcionalidad en las clases para que la aplicación sea funciona.*/
+1.Crear nueva empresa.
+2.Añadir empleado a empresa existente.
+3.Listado de empresas.
+4.Informacion de una empresa en particular.
+5.Crear empleado.
+6.Listado de empleados.
+7.Información de un empleado en particular.
+8.Salir.Se deberá implementar todo la funcionalidad en las clases para que la aplicación sea funciona.*/
 
 namespace Empresa
 {
@@ -25,7 +25,7 @@ namespace Empresa
     class Empresas
     {
         public string nombreEmpresa { get; set; }
-        public string anyodefundacion { get; set; }
+        public string anyodefundacion { get; set; }        
 
         public static void Save(Empresas empresas)
         {
@@ -50,12 +50,14 @@ namespace Empresa
         public string Apellidos { get; set; }
         public string fechanacimiento { get; set; }               
         public string fechaContrato { get; set; }
+        public string empresaEmpleado { get; set;  }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
+            //Definicion de las variables a utilizar en la clase principal
             int opcion;
             string nuevaEmpresa = "";
             string nuevoAnyoFundacion = "";
@@ -63,12 +65,18 @@ namespace Empresa
             string nfechaNac = "";
             string nApellidos = "";
             string nFechacontrato = "";
+            string buscarEmpresa = "";
             Empresas nuevaLineaEmp;
+            Empresas nuevaLineaEmpl;
+            Empresas emp;
+            Empleados emple;
 
             Dictionary<string, Empresas> dicEmpresas = new Dictionary<string, Empresas>();
             Dictionary<string, Empleados> dicEmpleados = new Dictionary<string, Empleados>();
             do
             {
+                //Console.Clear();
+                Console.WriteLine("******************** EMPRESAS Y EMPLEADOS ***********************");
                 Console.WriteLine("Indique la acción que quiere realizar: ");
                 Console.WriteLine("[1] Crear nueva empresa");
                 Console.WriteLine("[2] Añadir empleado a empresa existente");
@@ -78,10 +86,11 @@ namespace Empresa
                 Console.WriteLine("[6] Listado de empleados");
                 Console.WriteLine("[7] Información de un empleado en particular");
                 Console.WriteLine("[8] Salir");
+                Console.WriteLine("****************************************************************");
                 opcion = int.Parse(Console.ReadLine());
                 switch (opcion)
                 {
-                    case 1:
+                    case 1: //Crear nueva empresa
                         {                            
                             Console.WriteLine("Introduzca el nombre de la empresa: ");
                             nuevaEmpresa = Console.ReadLine();
@@ -95,20 +104,24 @@ namespace Empresa
                             //Empresas.Save(nuevaLineaEmp);
                             break;
                         }
-                    case 2:
+                    case 2: //Añadir empleado a empresa existente
                         {
                             Console.WriteLine("Introduzca el nombre del empleado: ");
                             nNombre = Console.ReadLine();
-                            Console.WriteLine("Introduzca los apellidos del empleado: ");
-                            nApellidos = Console.ReadLine();
-                            Console.WriteLine("Introduzca la fecha de nacimiento: ");
-                            nfechaNac = Console.ReadLine();
-                            Console.WriteLine("Introduzca la fecha de contrato: ");
-                            nFechacontrato = Console.ReadLine();
-                            dicEmpleados.Add(nNombre, new Empleados() { nombreEmpleado = nNombre, Apellidos = nApellidos, fechanacimiento = nfechaNac, fechaContrato = nFechacontrato });                         
+                            Console.WriteLine("Introduzca el nombre de la empresa: ");
+                            buscarEmpresa = Console.ReadLine();
+                            bool existe = dicEmpresas.TryGetValue(buscarEmpresa, out emp);
+                            if (existe)
+                            {
+                                dicEmpleados.TryAdd(nNombre, new Empleados() { nombreEmpleado = nNombre, Apellidos = nApellidos, fechanacimiento = nfechaNac, fechaContrato = nFechacontrato, empresaEmpleado = buscarEmpresa });
+                            }
+                            else
+                            {
+                                Console.WriteLine("La empresa no existe");
+                            }
                             break;
                         }
-                    case 3:
+                    case 3: //Listado de empresas
                         {
                             Console.Clear();
                             Console.WriteLine("*************************************************");
@@ -123,15 +136,38 @@ namespace Empresa
                             Console.WriteLine();
                             break;
                         }
-                    case 4:
+                    case 4: //Informacion de una empresa en particular
                         {
+                            Console.WriteLine("Indique el nombre de la empresa de la que desea obtener información: ");
+                            string buscarPalabra = Console.ReadLine();
+                            bool existe = dicEmpresas.TryGetValue(buscarPalabra, out emp);
+                            if (existe)
+                            {
+                                Console.Clear();                                
+                                Console.WriteLine("El nombre de la empresa es: " + emp.nombreEmpresa);
+                                Console.WriteLine("El año de fundación de la empresa es: " + emp.anyodefundacion);
+                                Console.WriteLine(" ");
+                            }
+                            else
+                            {
+                                Console.WriteLine("La empresa no existe");
+                            }
                             break;
                         }
-                    case 5:
+                    case 5: //Crear empleado
                         {
+                            Console.WriteLine("Introduzca el nombre del empleado: ");
+                            nNombre = Console.ReadLine();
+                            Console.WriteLine("Introduzca los apellidos del empleado: ");
+                            nApellidos = Console.ReadLine();
+                            Console.WriteLine("Introduzca la fecha de nacimiento: ");
+                            nfechaNac = Console.ReadLine();
+                            Console.WriteLine("Introduzca la fecha de contrato: ");
+                            nFechacontrato = Console.ReadLine();
+                            dicEmpleados.Add(nNombre, new Empleados() { nombreEmpleado = nNombre, Apellidos = nApellidos, fechanacimiento = nfechaNac, fechaContrato = nFechacontrato });
                             break;
                         }
-                    case 6:
+                    case 6: //Listado de empleados
                         {
                             Console.Clear();
                             Console.WriteLine("**************************************************");
@@ -148,11 +184,26 @@ namespace Empresa
                             Console.WriteLine();
                             break;
                         }
-                    case 7:
+                    case 7: //Información de un empleado en particular
                         {
+                            Console.WriteLine("Indique el nombre del empleado del que desea obtener información: ");
+                            string buscarPalabra = Console.ReadLine();
+                            bool existe = dicEmpleados.TryGetValue(buscarPalabra, out emple);
+                            if (existe)
+                            {
+                                Console.Clear();
+                                Console.WriteLine("El nombre del empleado es: " + emple.nombreEmpleado);
+                                Console.WriteLine("El apellido del empleado es: " + emple.Apellidos);
+                                Console.WriteLine("El año de nacimiento del empleado es: " + emple.fechanacimiento);
+                                Console.WriteLine("El de incorporación a la empresa es: " + emple.fechaContrato);
+                                Console.WriteLine(" ");
+                            }
+                            else
+                            {
+                                Console.WriteLine("El empleado no existe");
+                            }
                             break;
                         }
-
                 }
             }
             while (opcion != 8);
