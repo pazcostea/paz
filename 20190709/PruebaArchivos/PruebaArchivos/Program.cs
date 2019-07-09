@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 
 namespace PruebaArchivos
 {
@@ -87,10 +88,20 @@ namespace PruebaArchivos
             string[] text1 = File.ReadAllLines(@"c:\tests\Hola2.txt");
             for (int i = 0; i < text1.Length; i++)
             {
-                Console.WriteLine(i);
+                Console.Write(i + ". ");
                 Console.WriteLine(text1[i]);
             }
-            
+
+            //Leer de un archivo
+            //Abrimos un fichero y voy a poder ir leyendo byte a byte para grandes archivos de datos
+
+            StreamReader leerFichero = new StreamReader(@"c:\tests\hello.txt");
+            while (leerFichero.Peek() >= 0)
+            {
+                Console.Write((char)leerFichero.Read());
+            }
+            leerFichero.Close();
+
 
         }
     }

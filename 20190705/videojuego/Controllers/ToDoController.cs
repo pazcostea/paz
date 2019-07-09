@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using videojuego.Models;
 using videojuego.utils;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 
 namespace videojuego.Controllers
 {
@@ -12,6 +15,8 @@ namespace videojuego.Controllers
     [ApiController]
     public class ToDoController : ControllerBase
     {
+        
+
         private Store store = Store.Instance; 
 
         //Creamos un constructor
@@ -24,16 +29,24 @@ namespace videojuego.Controllers
         [HttpGet]
         public List<Datosvideoj> getTodoVideo()
         {
-            return this.store.todos;
+            List<Datosvideoj> d = new List<Datosvideoj>();
+            foreach (string f in Directory.GetFiles("C:/tests/video"))
+            {
+                d.Add(Datosvideoj.Load(f));
+            }
+            return d;
+            //Datosvideoj.Load();
+            //return this.store.todos;
         }
         //Método para introducir videojuegos
         [HttpPost]
         public Datosvideoj PostTodo (Datosvideoj item)
         {
             item.Id=store.todos.Count; //Incrementamos el Id
+            Datosvideoj.Save(item);
             this.store.todos.Add(item);            
             return item;
-        }
+        }       
 
         //Método para obtener la información de un videojuego por id
         [HttpGet("{Id}")]

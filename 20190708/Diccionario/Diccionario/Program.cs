@@ -72,6 +72,14 @@ namespace Diccionario
                             //    Console.WriteLine(palabs.Value.palabra);
                             //    Console.WriteLine(palabs.Value.descripcion);
                             //}
+                            //Mostramos el contenido del fichero
+                            StreamReader leerFichero = new StreamReader("C:/Users/formacion.GTT/Documents/Paz/paz/20190708/Diccionario/Diccionario.txt");
+                            while (leerFichero.Peek() >= 0)
+                            {
+                                Console.Write((char)leerFichero.Read());
+                            }
+                            leerFichero.Close();
+
                             Console.WriteLine("Indique la palabra que quiere buscar: ");
                             string buscarPalabra = Console.ReadLine();
                             
