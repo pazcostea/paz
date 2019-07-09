@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 /*
  Hacer un programa que saque por pantalla un menú que muestre dos opciones:
  1. Introducir palabra
@@ -58,6 +59,8 @@ namespace Diccionario
                                 nuevaDescripcion = Console.ReadLine();
                                 dicPalabras.Add(nuevaPalabra, new Palabras() { palabra = nuevaPalabra, descripcion = nuevaDescripcion });
                                 }
+                                var nuevaLinea = nuevaPalabra + " ; " + nuevaDescripcion + "" + "\n";
+                                File.AppendAllText("C:/Users/formacion.GTT/Documents/Paz/paz/20190708/Diccionario/Diccionario.txt", nuevaLinea);                               
                             }
                             while (nuevaPalabra != " ");
                             break;
