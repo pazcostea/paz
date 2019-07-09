@@ -48,9 +48,9 @@ namespace Diccionario
                 switch (opcion)
                 {
                     case 1:
-                        {                            
-                            //do
-                            //{
+                        {
+                            do
+                            {
                                 Console.WriteLine("Introduzca la palabra: ");
                                 nuevaPalabra = Console.ReadLine();
                                 if (nuevaPalabra != " ")
@@ -60,10 +60,10 @@ namespace Diccionario
                                 dicPalabras.Add(nuevaPalabra, new Palabras() { palabra = nuevaPalabra, descripcion = nuevaDescripcion });
                                 }
                                 var nuevaLinea = nuevaPalabra + " ; " + nuevaDescripcion + "" + "\n";
-                                File.AppendAllText("C:/Users/formacion.GTT/Documents/Paz/paz/20190708/Diccionario/Diccionario.txt", nuevaLinea);                               
-                            //}
-                            //while (nuevaPalabra != " ");
-                            break;
+                                File.AppendAllText("C:/Users/formacion.GTT/Documents/Paz/paz/20190708/Diccionario/Diccionario.txt", nuevaLinea);
+                        }
+                        while (nuevaPalabra != " ") ;
+                        break;
                         }
                     case 2:
                         {

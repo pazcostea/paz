@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+
 
 /*Queremos construir una aplicación que permita almacenar la información relevante sobre empresas y sus empleados:
 
@@ -18,10 +21,27 @@ Salir.Se deberá implementar todo la funcionalidad en las clases para que la apl
 
 namespace Empresa
 {
+    [Serializable]
     class Empresas
     {
         public string nombreEmpresa { get; set; }
         public string anyodefundacion { get; set; }
+
+        public static void Save(Empresas empresas)
+        {
+            IFormatter formatter = new BinaryFormatter();
+            Stream stream = new FileStream("C:/Prueba/", FileMode.Create, FileAccess.Write, FileShare.None);
+            formatter.Serialize(stream, empresas);
+            stream.Close();
+        }
+        public static Empresas Load(string ruta)
+        {
+            Empresas empresas;
+            IFormatter formatter = new BinaryFormatter();
+            Stream stream = new FileStream(ruta, FileMode.Open, FileAccess.Read, FileShare.Read);
+            empresas = (Empresas)formatter.Deserialize(stream);
+            stream.Close(); return empresas;
+        }
     }
 
     class Empleados
@@ -39,6 +59,7 @@ namespace Empresa
             int opcion;
             string nuevaEmpresa = "";
             string nuevoAnyoFundacion = "";
+            Empresas nuevaLineaEmp;
 
             Dictionary<string, Empresas> dicEmpresas = new Dictionary<string, Empresas>();
             do
@@ -66,7 +87,9 @@ namespace Empresa
                                 dicEmpresas.Add(nuevaEmpresa, new Empresas() { nombreEmpresa = nuevaEmpresa, anyodefundacion = nuevoAnyoFundacion });
                             }
                             var nuevaLinea = nuevaEmpresa + " ; " + nuevoAnyoFundacion + "" + "\n";
-                            File.AppendAllText("C:/Users/formacion.GTT/Documents/Paz/paz/20190709/Empresa/Empresas.txt", nuevaLinea);                            
+                            File.AppendAllText("C:/Prueba/Empresas.txt", nuevaLinea);
+                            nuevaLineaEmp = new Empresas();
+                            Empresas.Save(nuevaLineaEmp);
                             break;
                         }
                     case 2:
