@@ -73,6 +73,25 @@ namespace PruebaArchivos
             File.WriteAllText("c:/tests/hello.txt", "Hola mundo 1");
             File.AppendAllText("c:/tests/hello.txt", "Hola mundo 2");
             File.AppendAllText("c:/tests/hello.txt", "Hola mundo 3");
+
+            //Añadir a archivo
+            StreamWriter file = new StreamWriter(@"c:\tests\hello.txt", true);
+            file.WriteLine("Helloooooooo");
+            file.Close();
+
+            //Leer el contenido del archivo
+            //Opcion 1
+            string text = File.ReadAllText(@"c:\tests\hello.txt");
+            Console.WriteLine(text);
+            //Opcion 2
+            string[] text1 = File.ReadAllLines(@"c:\tests\Hola2.txt");
+            for (int i = 0; i < text1.Length; i++)
+            {
+                Console.WriteLine(i);
+                Console.WriteLine(text1[i]);
+            }
+            
+
         }
     }
 }
