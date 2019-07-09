@@ -46,9 +46,9 @@ namespace Empresa
 
     class Empleados
     {
-        public string fechanacimiento { get; set; }
-        public string Apellidos { get; set; }
         public string nombreEmpleado { get; set; }
+        public string Apellidos { get; set; }
+        public string fechanacimiento { get; set; }               
         public string fechaContrato { get; set; }
     }
 
@@ -59,9 +59,14 @@ namespace Empresa
             int opcion;
             string nuevaEmpresa = "";
             string nuevoAnyoFundacion = "";
+            string nNombre = "";
+            string nfechaNac = "";
+            string nApellidos = "";
+            string nFechacontrato = "";
             Empresas nuevaLineaEmp;
 
             Dictionary<string, Empresas> dicEmpresas = new Dictionary<string, Empresas>();
+            Dictionary<string, Empleados> dicEmpleados = new Dictionary<string, Empleados>();
             do
             {
                 Console.WriteLine("Indique la acción que quiere realizar: ");
@@ -80,24 +85,42 @@ namespace Empresa
                         {                            
                             Console.WriteLine("Introduzca el nombre de la empresa: ");
                             nuevaEmpresa = Console.ReadLine();
-                            if (nuevaEmpresa != " ")
-                            {
-                                Console.WriteLine("Introduzca el año de fundación: ");
-                                nuevoAnyoFundacion = Console.ReadLine();
-                                dicEmpresas.Add(nuevaEmpresa, new Empresas() { nombreEmpresa = nuevaEmpresa, anyodefundacion = nuevoAnyoFundacion });
-                            }
-                            var nuevaLinea = nuevaEmpresa + " ; " + nuevoAnyoFundacion + "" + "\n";
-                            File.AppendAllText("C:/Prueba/Empresas.txt", nuevaLinea);
-                            nuevaLineaEmp = new Empresas();
-                            Empresas.Save(nuevaLineaEmp);
+                            Console.WriteLine("Introduzca el año de fundación: ");
+                            nuevoAnyoFundacion = Console.ReadLine();
+                            dicEmpresas.Add(nuevaEmpresa, new Empresas() { nombreEmpresa = nuevaEmpresa, anyodefundacion = nuevoAnyoFundacion });
+
+                            //var nuevaLinea = nuevaEmpresa + " ; " + nuevoAnyoFundacion + "" + "\n";
+                            //File.AppendAllText("C:/Prueba/Empresas.txt", nuevaLinea);
+                            //nuevaLineaEmp = new Empresas();
+                            //Empresas.Save(nuevaLineaEmp);
                             break;
                         }
                     case 2:
                         {
+                            Console.WriteLine("Introduzca el nombre del empleado: ");
+                            nNombre = Console.ReadLine();
+                            Console.WriteLine("Introduzca los apellidos del empleado: ");
+                            nApellidos = Console.ReadLine();
+                            Console.WriteLine("Introduzca la fecha de nacimiento: ");
+                            nfechaNac = Console.ReadLine();
+                            Console.WriteLine("Introduzca la fecha de contrato: ");
+                            nFechacontrato = Console.ReadLine();
+                            dicEmpleados.Add(nNombre, new Empleados() { nombreEmpleado = nNombre, Apellidos = nApellidos, fechanacimiento = nfechaNac, fechaContrato = nFechacontrato });                         
                             break;
                         }
                     case 3:
                         {
+                            Console.Clear();
+                            Console.WriteLine("*************************************************");
+                            Console.WriteLine("*************Listado de empresas*****************");
+                            Console.WriteLine("*************************************************");
+                            foreach (var listEmpresas in dicEmpresas)
+                            {                                
+                                Console.WriteLine("Nombre de la empresa: " + listEmpresas.Value.nombreEmpresa);
+                                Console.WriteLine("Año de fundación de la empresa: " + listEmpresas.Value.anyodefundacion);
+                                Console.WriteLine();
+                            }
+                            Console.WriteLine();
                             break;
                         }
                     case 4:
@@ -110,6 +133,19 @@ namespace Empresa
                         }
                     case 6:
                         {
+                            Console.Clear();
+                            Console.WriteLine("**************************************************");
+                            Console.WriteLine("*************Listado de empleados*****************");
+                            Console.WriteLine("**************************************************");
+                            foreach (var listEmpleados in dicEmpleados)
+                            {
+                                Console.WriteLine("Nombre del empleado: " + listEmpleados.Value.nombreEmpleado);
+                                Console.WriteLine("Apellidos: " + listEmpleados.Value.Apellidos);
+                                Console.WriteLine("Fecha de nacimiento: " + listEmpleados.Value.fechanacimiento);
+                                Console.WriteLine("Fecha de contrato: " + listEmpleados.Value.fechaContrato);
+                                Console.WriteLine();
+                            }
+                            Console.WriteLine();
                             break;
                         }
                     case 7:
