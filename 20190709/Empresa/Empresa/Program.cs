@@ -136,7 +136,7 @@ namespace Empresa
                             Console.WriteLine();
                             break;
                         }
-                    case 4: //Informacion de una empresa en particular
+                    case 4: //Informacion de una empresa en particular pppp
                         {
                             Console.WriteLine("Indique el nombre de la empresa de la que desea obtener información: ");
                             string buscarPalabra = Console.ReadLine();
